@@ -51,9 +51,7 @@ export function LandingHero() {
         <div className="absolute inset-0 bg-hero-overlay" />
 
         <header className="relative z-10">
-          <div className="mx-auto flex max-w-6xl items-start justify-center px-4 pt-10 sm:px-6 md:justify-start md:pt-12">
-            <span className="brand-logo text-[18px] md:text-[20px]">Quiz Core</span>
-          </div>
+          <div className="mx-auto max-w-6xl px-4 pt-6 sm:px-6 md:pt-8" />
         </header>
 
         <main className="relative z-10">
