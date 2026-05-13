@@ -63,6 +63,7 @@ export function LandingHero() {
                 sx={{
                   fontWeight: 900,
                   lineHeight: 1.05,
+                  textAlign: "center",
                   letterSpacing: "-0.02em",
                   fontSize: { xs: 30, sm: 40, lg: 44 },
                   color: "#f3d066",
@@ -73,7 +74,7 @@ export function LandingHero() {
                 to £12,750 <br />+ 400 FS
               </Typography>
 
-              <div className="mt-5 w-full max-w-[320px] rounded-xl bg-black/20 px-4 py-4 ring-1 ring-white/10 backdrop-blur md:max-w-none mx-auto md:mx-0">
+              <div className="mt-5 w-full max-w-[320px] rounded-xl bg-black/20 px-4 py-4 ring-1 ring-white/10 backdrop-blur md:max-w-none mx-auto md:mx-0 flex items-center justify-center flex-col">
                 <Button
                   variant="contained"
                   size="large"
