@@ -5,7 +5,7 @@ import bg from "@/shared/assets/background.png";
 import gates from "@/shared/assets/gates-of-olympus.png";
 import visa from "@/shared/assets/visa.png";
 import mastercard from "@/shared/assets/mastercard.png";
-import interac from "@/shared/assets/interac.png";
+import openbanking from "@/shared/assets/open-banking.png";
 import { buildRedirectUrl } from "@/shared/lib/redirect";
 
 function PaymentIcon({ src, alt }) {
@@ -111,7 +111,7 @@ export function LandingHero() {
                   <SmallRound label="€" className="bg-white/10" />
                   <PaymentIcon src={visa} alt="Visa" />
                   <PaymentIcon src={mastercard} alt="Mastercard" />
-                  <PaymentIcon src={interac} alt="Interac" />
+                  <PaymentIcon src={openbanking} alt="openbanking" />
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@ export function LandingHero() {
             <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-4 px-4 py-4 sm:px-6">
               <PaymentIcon src={visa} alt="Visa" />
               <PaymentIcon src={mastercard} alt="Mastercard" />
-              <PaymentIcon src={interac} alt="Interac" />
+              <PaymentIcon src={openbanking} alt="Open banking" />
             </div>
           </div>
         </footer>
