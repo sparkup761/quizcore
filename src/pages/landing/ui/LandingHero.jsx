@@ -70,8 +70,7 @@ export function LandingHero() {
                 }}
               >
                 Grab a 400% bonus up <br />
-                to £12,750 <br />+ 400 FS on gates of <br />
-                olympus!
+                to £12,750 <br />+ 400 FS
               </Typography>
 
               <div className="mt-5 w-full max-w-[320px] rounded-xl bg-black/20 px-4 py-4 ring-1 ring-white/10 backdrop-blur md:max-w-none mx-auto md:mx-0">
